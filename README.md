@@ -1,6 +1,6 @@
 # Bio-inspired robot control based on BeagleBone board
 
-2015-bachelor
+Internship IRCCyN - 2015 - bachelor
 
 This project was part of a 1-month internship. I was in charge of the programming and the electronic of the robot.
 The robot is a bio-inspired robot; which purpose is to scrawl into canalization like a warm. I didn’t take part into the design of the robot.
