@@ -26,7 +26,7 @@ The robot successfully accomplished a demonstration into a robotic convention, 1
 
 The following documentation is in French. (do not hesitate if you want more information in English)
 
-<img src="/image/schema2.jpg">
+<img src="/image/schema2.jpg"  width="250" >
 
 <img src="/image/BBB.jpg">
 
