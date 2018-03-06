@@ -1,0 +1,45 @@
+# This is the SSH script to run on the board in order to activate and configure the PIN used by the robot when booting
+#17/07/2015
+
+#!/bin/bash
+
+# config.sh
+#
+#
+
+#pwm :
+cd /sys/devices/bone_capemgr.8
+echo bone_pwm_P9_14 > slots
+echo bone_pwm_P8_13 > slots
+echo bone_pwm_P9_31 > slots
+sleep 0.1
+#le probleme est que .XX semble être aléatoire
+cd /sys/devices/ocp.2/pwm_test_P9_14.10
+echo 0 > run
+echo 0 > polarity
+sleep 0.1
+cd /sys/devices/ocp.2/pwm_test_P9_31.12
+echo 0 > run
+echo 0 > polarity
+sleep 0.1
+cd /sys/devices/ocp.2/pwm_test_P8_13.11
+echo 0 > run
+echo 0 > polarity
+
+#gpio :
+cd /sys/class/gpio
+echo 30 > export
+echo 31 > export
+echo 47 > export
+echo 27 > export
+echo 117 > export
+echo 49 > export
+cd /sys/class/gpio/gpio31
+echo 0 > value
+
+#ain : 
+cd /sys/devices/bone_capemgr.*
+echo cape-bone-iio > slots
+
+#eqep 
+echo bone_eqep2 > /sys/devices/bone_capemgr.8/slots
