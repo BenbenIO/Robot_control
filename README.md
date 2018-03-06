@@ -1,4 +1,4 @@
-# Bio-inspired robot control based on BeagleBone board
+﻿# Bio-inspired robot control based on BeagleBone board
 
 2015-bachelor
 
@@ -6,18 +6,13 @@ This project was part of a 1-month internship. I was in charge of the programmin
 The robot is a bio-inspired robot; which purpose is to scrawl into canalization like a warm. I didn’t take part into the design of the robot.
 
 Hardware:
-* Bullet list
-  o BeagleBone Black
-* Bullet list
-  o Maxon motor control (36/3 EC)
-* Bullet list
-  o Maxon EC-max 283828
+*  BeagleBone Black
+*  Maxon motor control (36/3 EC)
+*  Maxon EC-max 283828
 
 Software dev:
-* Bullet list
-  o Code::Blocks
-* Bullet list
-  o Putty
+* Code::Blocks
+* Putty
 
 I used an already existing project based on the BeagleBone board to interface the motor. During this project, it was the first time I code on a Linux based board, and deal with real robotic project. 
 I achieved the electronic connection and configuration with the motor. 
