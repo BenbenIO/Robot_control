@@ -8,7 +8,6 @@ This project was part of a 1-month internship. I was in charge of the programmin
 The robot is a bio-inspired robot; which purpose is to scrawl into canalization like a warm. I didn’t take part into the design of the robot.
 
 Hardware:
-<<<<<<< HEAD
 *  BeagleBone Black
 *  Maxon motor control (36/3 EC)
 *  Maxon EC-max 283828
@@ -16,7 +15,7 @@ Hardware:
 * BeagleBone Black
 * Maxon motor control (36/3 EC)
 * Maxon EC-max 283828
->>>>>>> 67c7e4d6c0f74dfbabd6dd06b92aa48be87e021b
+
 
 Software dev:
 * Code::Blocks
