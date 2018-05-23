@@ -7,17 +7,12 @@ Internship IRCCyN - 2015 - bachelor
 This project was part of a 1-month internship. I was in charge of the programming and the electronic of the robot.
 The robot is a bio-inspired robot; which purpose is to scrawl into canalization like a warm. I didn’t take part into the design of the robot.
 
-Hardware:
+# Hardware:
 *  BeagleBone Black
 *  Maxon motor control (36/3 EC)
 *  Maxon EC-max 283828
-=======
-* BeagleBone Black
-* Maxon motor control (36/3 EC)
-* Maxon EC-max 283828
 
-
-Software dev:
+# Software dev:
 * Code::Blocks
 * Putty
 
